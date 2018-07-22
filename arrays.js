@@ -11,11 +11,11 @@ var chocolateBars = [
   //spread operator (...) spreads arrays contents
   
   function addElementToBeginningOfArray(myarr,myel) {
-    myarr.unshift(...myel);
+    myarr.unshift(myel);
     return myarr;
   }
   function destructivelyAddElementToBeginningOfArray(myarr,myel) {
-    myarr.unshift(myel);
-    return;
+    var newarr=myarr.unshift(..myel);
+    return newarr;
   }  
   
